@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/Name" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView25"
+        android:layout_alignBottom="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="-84dp"
+        android:text="@string/comentary" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="62dp"
+        android:text="@string/idDescription" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="104dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="70dp"
+        android:layout_toEndOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="55dp"
+        android:layout_toEndOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="118dp"
+        android:layout_height="19dp"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="54dp"
+        android:layout_toEndOf="@+id/textView23" />
+
+    <Button
+        android:id="@+id/buttondelcomentary"
+        android:layout_width="222dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="-177dp"
+        android:text="@string/delcom" />
+
+    <Button
+        android:id="@+id/bt_updateComentary"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginBottom="377dp"
+        android:text="@string/modificar" />
+
+</RelativeLayout>

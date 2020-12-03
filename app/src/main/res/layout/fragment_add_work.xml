@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Vistas.addWork">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nameWork"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/description"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/size"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/weight"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/spinnerArtistas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bImageGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/imageGallery" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/side_nav_bar" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:hint="@string/nameFile"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button_crearExposicion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/createWork" />
+
+</LinearLayout>

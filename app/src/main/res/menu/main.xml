@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_user_preferences"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_exhibitions"
+        android:orderInCategory="100"
+        android:title="@string/menu_exhibitions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_artist"
+        android:orderInCategory="100"
+        android:title="@string/menu_artist"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_works"
+        android:orderInCategory="100"
+        android:title="@string/menu_works"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_commentaries"
+        android:orderInCategory="100"
+        android:title="@string/menu_commetaries"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Rooms</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_user_preferences">User preferences</string>
+
+    <string name="menu_artist">Artists</string>
+    <string name="menu_exhibitions">Exhibitions</string>
+    <string name="menu_works">Works</string>
+    <string name="menu_commetaries">Commentaries</string>
+
+    <string name="user">Name user login</string>
+    <string name="password">Password user login</string>
+
+    <string name="bt_delExpo">Delete exhibition</string>
+    <string name="bt_modExpo">Update exhibition</string>
+    <string name="bAnadirExpo">Add exhibition</string>
+
+
+    <string name="idDescription">ID description</string>
+    <string name="description">Description</string>
+    <string name="nameExhibition">Name of exhibition</string>
+    <string name="startExibition">Star exhibition</string>
+    <string name="endExibition">End exhibition</string>
+    <string name="addExhibition">Add exhibition</string>
+    <string name="backto">Back to</string>
+    <string name="confirmDelete">Are you sure you want to eliminate </string>
+    <string name="acept">Accept</string>
+    <string name="delExito">Successfully deleted</string>
+    <string name="delFallido">Unsuccessful deletion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="DniPasaporte">DNI passport</string>
+    <string name="Name">Name</string>
+    <string name="Address">Adress</string>
+    <string name="Population">Population</string>
+    <string name="Province">Province</string>
+    <string name="Country">Country</string>
+    <string name="dateBirth">Birth date</string>
+    <string name="MobileWork">Mobile work</string>
+    <string name="Personalmobile">Personal mobile</string>
+    <string name="LandLine">Landline</string>
+    <string name="Email">Email</string>
+    <string name="WebBlog">WebBlog</string>
+    <string name="bAnadirArtist">Add artist</string>
+    <string name="bDeleteArtist">Delete artist</string>
+    <string name="bUpdate">Update artist</string>
+    <string name="updateExito">Successfully update</string>
+    <string name="insertFallido">Failure to insert, the artist already has this exhibition</string>
+    <string name="insertExito">Successfully insert</string>
+    <string name="updateFallido">Unsuccessful update</string>
+    <string name="participate">Participate</string>
+    <string name="fail">Something wrong, invalid primary key or null data</string>
+    <string name="failUpdate">Updated without success, invalid data</string>
+    <string name="viewHexhibition">View artist exhibition</string>
+    <string name="array">There are no artists in this exhibition, all the artists that there are will be loaded, so you can add it to an exhibition</string>
+    <string name="date">Invalid date (dd/MM/yyyy)</string>
+    <string name="empty">Empty fields</string>
+    <string name="dniExists">The DNI exists</string>
+    <string name="idExists">The ID exists</string>
+    <string name="sendEmail">Send Email</string>
+    <string name="to">To:</string>
+    <string name="subject">For:</string>
+    <string name="Message">Message:</string>
+    <string name="Phone">Phone personal</string>
+    <string name="addWorks">Add works</string>
+    <string name="PohoneFail">Phone number not valid</string>
+    <string name="size">Size</string>
+    <string name="weight">Weight</string>
+    <string name="artist">Artist</string>
+    <string name="modifyWork">Modify Work</string>
+    <string name="deleteWork">Delete work</string>
+    <string name="seecomments">See comments</string>
+    <string name="artistInformation">Artist information</string>
+    <string name="imageGallery">Image gallery</string>
+    <string name="nameWork">Name of work</string>
+    <string name="nameFile">Name of file</string>
+    <string name="SaveImage">Save image</string>
+    <string name="fileNotFound">File not found</string>
+    <string name="failImage">Invalid image</string>
+    <string name="createWork">Create work</string>
+    <string name="existingWork">Existing work</string>
+    <string name="comentary">Comments</string>
+    <string name="addComentary">Add comentary</string>
+    <string name="delcom">Delete comentary</string>
+    <string name="delartistfail">You can not delete this artist because you have works</string>
+    <string name="delfailComentary">You can not delete this work as you have comments</string>
+    <string name="deldatos">There are no artists associated with this work</string>
+    <string name="seeComentary">See comentaries</string>
+    <string name="noWork">There are no works for this exhibition</string>
+    <string name="cancelar">Cancel</string>
+    <string name="logearse">Login</string>
+    <string name="vacio">Empty fields</string>
+    <string name="phonenovaild">Phone no valid(length 9 and only numbers)</string>
+    <string name="emailnotvalid">Email not valid</string>
+    <string name="eligeEmail">Chooses an email client</string>
+    <string name="Asunto">Subject</string>
+    <string name="modificar">Update Comentary</string>
+    <string name="Subject">Asunt</string>
+    <string name="Felicitar">Congrat</string>
+    <string name="noFelictar">It is not your birthday yet</string>
+    <string name="failure">Failure to open mail</string>
+    <string name="nombreVictor">Victor Manuel Ruiz Rodríguez</string>
+    <string name="idExibicion">Id Exhibicion</string>
+    <string name="noArtist">No artists</string>
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/nav_exhibitions"
+        android:name="com.example.salas.Vistas.ExposicionesFragment"
+        android:label="@string/menu_exhibitions"
+        tools:layout="@layout/fragment_exposiciones" >
+        <action
+            android:id="@+id/action_nav_exhibitions_to_addExhibitions"
+            app:destination="@id/addExhibitions" />
+        <action
+            android:id="@+id/action_nav_exhibitions_to_actuzalizar_exposicion"
+            app:destination="@id/actuzalizar_exposicion" />
+        <action
+            android:id="@+id/action_nav_exhibitions_to_nav_artists"
+            app:destination="@id/nav_artists" />
+        <action
+            android:id="@+id/action_nav_exhibitions_to_nav_artists2"
+            app:destination="@id/nav_artists" />
+        <action
+            android:id="@+id/action_nav_exhibitions_to_comentarios"
+            app:destination="@id/comentarios" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_works"
+        android:name="com.example.salas.Vistas.TrabajosFragment"
+        android:label="@string/menu_works"
+        tools:layout="@layout/fragment_trabajos" >
+        <action
+            android:id="@+id/action_nav_works_to_addWork"
+            app:destination="@id/addWork" />
+        <action
+            android:id="@+id/action_nav_works_to_nav_artists"
+            app:destination="@id/nav_artists" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_artists"
+        android:name="com.example.salas.Vistas.ArtistasFragment"
+        android:label="@string/menu_artist"
+        tools:layout="@layout/fragment_artistas" >
+        <action
+            android:id="@+id/action_nav_artists_to_updateArtist"
+            app:destination="@id/updateArtist" />
+        <action
+            android:id="@+id/action_nav_artists_to_addArtistas"
+            app:destination="@id/addArtistas" />
+        <action
+            android:id="@+id/action_nav_artists_to_nav_exhibitions"
+            app:destination="@id/nav_exhibitions" />
+        <action
+            android:id="@+id/action_nav_artists_to_email"
+            app:destination="@id/email" />
+    </fragment>
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.salas.Vistas.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_nav_exhibitions"
+            app:destination="@id/nav_exhibitions" />
+    </fragment>
+    <fragment
+        android:id="@+id/addExhibitions"
+        android:name="com.example.salas.Vistas.addExhibitions"
+        android:label="@string/menu_exhibitions"
+        tools:layout="@layout/fragment_add_exhibitions" />
+    <fragment
+        android:id="@+id/actuzalizar_exposicion"
+        android:name="com.example.salas.Vistas.actuzalizar_exposicion"
+        android:label="@string/menu_exhibitions"
+        tools:layout="@layout/fragment_actuzalizar_exposicion" />
+    <fragment
+        android:id="@+id/updateArtist"
+        android:name="com.example.salas.Vistas.UpdateArtist"
+        android:label="@string/menu_artist"
+        tools:layout="@layout/fragment_update_artist" />
+    <fragment
+        android:id="@+id/addArtistas"
+        android:name="com.example.salas.Vistas.addArtistas"
+        android:label="@string/menu_artist"
+        tools:layout="@layout/fragment_add_artistas" />
+    <fragment
+        android:id="@+id/email"
+        android:name="com.example.salas.Vistas.Email"
+        android:label="@string/menu_artist"
+        tools:layout="@layout/fragment_email" />
+    <fragment
+        android:id="@+id/addWork"
+        android:name="com.example.salas.Vistas.addWork"
+        android:label="@string/menu_works"
+        tools:layout="@layout/fragment_add_work" />
+    <fragment
+        android:id="@+id/comentarios"
+        android:name="com.example.salas.Vistas.ComentariosFragment"
+        android:label="@string/comentary"
+        tools:layout="@layout/fragment_comentarios">
+        <action
+            android:id="@+id/action_comentarios_to_addComentary"
+            app:destination="@id/addComentary" />
+        <action
+            android:id="@+id/action_comentarios_to_modifcarComentario"
+            app:destination="@id/modifcarComentario" />
+    </fragment>
+    <fragment
+        android:id="@+id/addComentary"
+        android:name="com.example.salas.Vistas.AddComentary"
+        android:label="@string/menu_commetaries"
+        tools:layout="@layout/fragment_add_comentary" />
+    <fragment
+        android:id="@+id/modifcarComentario"
+        android:name="com.example.salas.Vistas.ModifcarComentario"
+        android:label="@string/menu_commetaries"
+        tools:layout="@layout/fragment_modifcar_comentario" />
+</navigation>

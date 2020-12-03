@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rv_trabajos"
+    android:layout_width="match_parent"
+    android:layout_height="600dp">
+
+    <ImageView
+        android:id="@+id/img_work"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/side_nav_bar" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_work"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/Name" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/description" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/size" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/weight" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/artist" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_work"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="70dp"
+        android:layout_toEndOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="70dp"
+        android:layout_toEndOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="71dp"
+        android:layout_toEndOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="73dp"
+        android:layout_toEndOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="74dp"
+        android:layout_toEndOf="@+id/textView15" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_below="@+id/textView22"
+        android:layout_marginTop="39dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/bt_delWork"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight= "1"
+                    android:text="@string/deleteWork" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/bt_informationArtist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/artistInformation" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
